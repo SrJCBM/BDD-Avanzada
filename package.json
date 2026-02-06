@@ -1,0 +1,27 @@
+{
+  "name": "leccion-redis",
+  "version": "1.0.0",
+  "description": "Leccion BDD Avanzada",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrJCBM/BDD-Aavanzada.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrJCBM/BDD-Aavanzada/issues"
+  },
+  "homepage": "https://github.com/SrJCBM/BDD-Aavanzada#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "redis": "^5.10.0",
+    "response-time": "^2.3.4"
+  }
+}

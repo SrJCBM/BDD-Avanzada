@@ -1,0 +1,370 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "cedula": "1234567890",
+      "nombres": "Juan Pérez",
+      "email": "juan.perez@email.com",
+      "telefono": "0987654321",
+      "edad": 28,
+      "genero": "Masculino"
+    },
+    {
+      "id": "2",
+      "cedula": "0987654321",
+      "nombres": "María García",
+      "email": "maria.garcia@email.com",
+      "telefono": "0998765432",
+      "edad": 32,
+      "genero": "Femenino"
+    },
+    {
+      "id": "3",
+      "cedula": "1122334455",
+      "nombres": "Carlos López",
+      "email": "carlos.lopez@email.com",
+      "telefono": "0976543210",
+      "edad": 45,
+      "genero": "Masculino"
+    },
+    {
+      "id": "4",
+      "cedula": "5544332211",
+      "nombres": "Ana Martínez",
+      "email": "ana.martinez@email.com",
+      "telefono": "0965432109",
+      "edad": 26,
+      "genero": "Femenino"
+    },
+    {
+      "id": "5",
+      "cedula": "6677889900",
+      "nombres": "Luis Rodríguez",
+      "email": "luis.rodriguez@email.com",
+      "telefono": "0954321098",
+      "edad": 38,
+      "genero": "Masculino"
+    },
+    {
+      "id": "6",
+      "cedula": "9988776655",
+      "nombres": "Patricia Sánchez",
+      "email": "patricia.sanchez@email.com",
+      "telefono": "0943210987",
+      "edad": 29,
+      "genero": "Femenino"
+    },
+    {
+      "id": "7",
+      "cedula": "1357924680",
+      "nombres": "Roberto Gómez",
+      "email": "roberto.gomez@email.com",
+      "telefono": "0932109876",
+      "edad": 41,
+      "genero": "Masculino"
+    },
+    {
+      "id": "8",
+      "cedula": "2468013579",
+      "nombres": "Laura Fernández",
+      "email": "laura.fernandez@email.com",
+      "telefono": "0921098765",
+      "edad": 34,
+      "genero": "Femenino"
+    },
+    {
+      "id": "9",
+      "cedula": "3691258047",
+      "nombres": "Diego Torres",
+      "email": "diego.torres@email.com",
+      "telefono": "0910987654",
+      "edad": 30,
+      "genero": "Masculino"
+    },
+    {
+      "id": "10",
+      "cedula": "7410852963",
+      "nombres": "Carmen Ruiz",
+      "email": "carmen.ruiz@email.com",
+      "telefono": "0909876543",
+      "edad": 25,
+      "genero": "Femenino"
+    }
+  ],
+  "productos": [
+    {
+      "id": "P001",
+      "codigo": "LAP-001",
+      "nombre": "Laptop Dell Inspiron 15",
+      "categoria": "Laptops",
+      "precio": 899.99,
+      "stock": 25
+    },
+    {
+      "id": "P002",
+      "codigo": "LAP-002",
+      "nombre": "Laptop HP Pavilion",
+      "categoria": "Laptops",
+      "precio": 749.99,
+      "stock": 30
+    },
+    {
+      "id": "P003",
+      "codigo": "MON-001",
+      "nombre": "Monitor LG 27 pulgadas",
+      "categoria": "Monitores",
+      "precio": 299.99,
+      "stock": 40
+    },
+    {
+      "id": "P004",
+      "codigo": "TEC-001",
+      "nombre": "Teclado Mecánico RGB",
+      "categoria": "Periféricos",
+      "precio": 89.99,
+      "stock": 60
+    },
+    {
+      "id": "P005",
+      "codigo": "MOU-001",
+      "nombre": "Mouse Inalámbrico Logitech",
+      "categoria": "Periféricos",
+      "precio": 45.99,
+      "stock": 80
+    },
+    {
+      "id": "P006",
+      "codigo": "AUD-001",
+      "nombre": "Audífonos Sony WH-1000XM4",
+      "categoria": "Audio",
+      "precio": 349.99,
+      "stock": 20
+    },
+    {
+      "id": "P007",
+      "codigo": "TAB-001",
+      "nombre": "Tablet Samsung Galaxy Tab S7",
+      "categoria": "Tablets",
+      "precio": 649.99,
+      "stock": 15
+    },
+    {
+      "id": "P008",
+      "codigo": "IMP-001",
+      "nombre": "Impresora HP LaserJet",
+      "categoria": "Impresoras",
+      "precio": 199.99,
+      "stock": 35
+    },
+    {
+      "id": "P009",
+      "codigo": "CAM-001",
+      "nombre": "Webcam Logitech 4K",
+      "categoria": "Periféricos",
+      "precio": 129.99,
+      "stock": 45
+    },
+    {
+      "id": "P010",
+      "codigo": "DIS-001",
+      "nombre": "Disco SSD 1TB Samsung",
+      "categoria": "Almacenamiento",
+      "precio": 119.99,
+      "stock": 50
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "PED001",
+      "codigo": "PED-2026-001",
+      "clienteId": "1",
+      "fecha": "2026-02-01",
+      "subtotal": 899.99,
+      "iva": 107.99,
+      "total": 1007.98,
+      "estado": "Completado"
+    },
+    {
+      "id": "PED002",
+      "codigo": "PED-2026-002",
+      "clienteId": "2",
+      "fecha": "2026-02-01",
+      "subtotal": 749.99,
+      "iva": 89.99,
+      "total": 839.98,
+      "estado": "En proceso"
+    },
+    {
+      "id": "PED003",
+      "codigo": "PED-2026-003",
+      "clienteId": "3",
+      "fecha": "2026-02-02",
+      "subtotal": 299.99,
+      "iva": 36.00,
+      "total": 335.99,
+      "estado": "Completado"
+    },
+    {
+      "id": "PED004",
+      "codigo": "PED-2026-004",
+      "clienteId": "4",
+      "fecha": "2026-02-02",
+      "subtotal": 135.98,
+      "iva": 16.32,
+      "total": 152.30,
+      "estado": "Enviado"
+    },
+    {
+      "id": "PED005",
+      "codigo": "PED-2026-005",
+      "clienteId": "5",
+      "fecha": "2026-02-03",
+      "subtotal": 349.99,
+      "iva": 42.00,
+      "total": 391.99,
+      "estado": "Completado"
+    },
+    {
+      "id": "PED006",
+      "codigo": "PED-2026-006",
+      "clienteId": "6",
+      "fecha": "2026-02-03",
+      "subtotal": 649.99,
+      "iva": 78.00,
+      "total": 727.99,
+      "estado": "Pendiente"
+    },
+    {
+      "id": "PED007",
+      "codigo": "PED-2026-007",
+      "clienteId": "7",
+      "fecha": "2026-02-04",
+      "subtotal": 199.99,
+      "iva": 24.00,
+      "total": 223.99,
+      "estado": "Completado"
+    },
+    {
+      "id": "PED008",
+      "codigo": "PED-2026-008",
+      "clienteId": "8",
+      "fecha": "2026-02-04",
+      "subtotal": 129.99,
+      "iva": 15.60,
+      "total": 145.59,
+      "estado": "En proceso"
+    },
+    {
+      "id": "PED009",
+      "codigo": "PED-2026-009",
+      "clienteId": "9",
+      "fecha": "2026-02-05",
+      "subtotal": 119.99,
+      "iva": 14.40,
+      "total": 134.39,
+      "estado": "Completado"
+    },
+    {
+      "id": "PED010",
+      "codigo": "PED-2026-010",
+      "clienteId": "10",
+      "fecha": "2026-02-05",
+      "subtotal": 479.97,
+      "iva": 57.60,
+      "total": 537.57,
+      "estado": "Enviado"
+    }
+  ],
+  "detalle_pedido": [
+    {
+      "id": "DET001",
+      "codigo": "DET-001",
+      "pedidoId": "PED001",
+      "productoId": "P001",
+      "cantidad": 1,
+      "detalle": "Laptop Dell Inspiron 15 - Color Negro",
+      "precioUnit": 899.99
+    },
+    {
+      "id": "DET002",
+      "codigo": "DET-002",
+      "pedidoId": "PED002",
+      "productoId": "P002",
+      "cantidad": 1,
+      "detalle": "Laptop HP Pavilion - Color Plata",
+      "precioUnit": 749.99
+    },
+    {
+      "id": "DET003",
+      "codigo": "DET-003",
+      "pedidoId": "PED003",
+      "productoId": "P003",
+      "cantidad": 1,
+      "detalle": "Monitor LG 27 pulgadas - Full HD",
+      "precioUnit": 299.99
+    },
+    {
+      "id": "DET004",
+      "codigo": "DET-004",
+      "pedidoId": "PED004",
+      "productoId": "P004",
+      "cantidad": 1,
+      "detalle": "Teclado Mecánico RGB - Switch Blue",
+      "precioUnit": 89.99
+    },
+    {
+      "id": "DET005",
+      "codigo": "DET-005",
+      "pedidoId": "PED004",
+      "productoId": "P005",
+      "cantidad": 1,
+      "detalle": "Mouse Inalámbrico Logitech - Color Negro",
+      "precioUnit": 45.99
+    },
+    {
+      "id": "DET006",
+      "codigo": "DET-006",
+      "pedidoId": "PED005",
+      "productoId": "P006",
+      "cantidad": 1,
+      "detalle": "Audífonos Sony WH-1000XM4 - Cancelación de ruido",
+      "precioUnit": 349.99
+    },
+    {
+      "id": "DET007",
+      "codigo": "DET-007",
+      "pedidoId": "PED006",
+      "productoId": "P007",
+      "cantidad": 1,
+      "detalle": "Tablet Samsung Galaxy Tab S7 - 128GB",
+      "precioUnit": 649.99
+    },
+    {
+      "id": "DET008",
+      "codigo": "DET-008",
+      "pedidoId": "PED007",
+      "productoId": "P008",
+      "cantidad": 1,
+      "detalle": "Impresora HP LaserJet - Monocromática",
+      "precioUnit": 199.99
+    },
+    {
+      "id": "DET009",
+      "codigo": "DET-009",
+      "pedidoId": "PED008",
+      "productoId": "P009",
+      "cantidad": 1,
+      "detalle": "Webcam Logitech 4K - Con micrófono",
+      "precioUnit": 129.99
+    },
+    {
+      "id": "DET010",
+      "codigo": "DET-010",
+      "pedidoId": "PED009",
+      "productoId": "P010",
+      "cantidad": 1,
+      "detalle": "Disco SSD 1TB Samsung - NVMe",
+      "precioUnit": 119.99
+    }
+  ]
+}
