@@ -2,36 +2,37 @@
 
 API REST para compra/venta de productos tecnológicos usando Redis como base de datos NoSQL clave-valor.
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Node.js (v14 o superior)
 - Redis instalado y corriendo en `localhost:6379`
 - NPM o Yarn
 
-## 🚀 Instalación
+## Instalación y Configuración
 
-1. Clonar el repositorio:
+### 1. Clonar el repositorio
 ```bash
 git clone <url-repositorio>
 cd BDD-Aavanzada
 ```
 
-2. Instalar dependencias:
+### 2. Instalar dependencias
 ```bash
 npm install
 ```
 
-3. Asegurarse de que Redis esté corriendo:
+### 3. Verificar Redis
 ```bash
 # En Windows con Redis instalado
 redis-server
 
-# O verificar que el servicio esté activo
+# Verificar que el servicio esté activo
+redis-cli ping
 ```
 
-## 🎯 Uso
+## Uso
 
-### Iniciar el servidor
+### Iniciar el Servidor
 
 Modo desarrollo (con nodemon):
 ```bash
@@ -45,7 +46,7 @@ npm start
 
 El servidor estará disponible en: `http://localhost:3000`
 
-## 📊 Modelo de Datos
+## Modelo de Datos
 
 ### Tablas (Colecciones)
 
@@ -56,7 +57,7 @@ El servidor estará disponible en: `http://localhost:3000`
 
 Cada tabla tiene 10 registros de ejemplo en `data/tecnomega.json`.
 
-## 🔌 Endpoints
+## Endpoints
 
 ### 1. Endpoint Principal
 ```http
@@ -154,7 +155,7 @@ GET /productos
 }
 ```
 
-## 🧪 Pruebas con Postman/Thunder Client
+## Pruebas con Postman/Thunder Client
 
 ### Secuencia de Pruebas
 
@@ -180,7 +181,7 @@ GET /productos
 7. **Listar detalles de pedidos**:
    - GET `http://localhost:3000/detalle_pedido`
 
-## ⏱️ Response Time
+## Response Time
 
 El middleware `response-time` está configurado y muestra en la consola el tiempo de respuesta de cada petición:
 
@@ -190,7 +191,7 @@ GET /productos - 12.45ms
 GET /clientes/1 - 8.32ms
 ```
 
-## 🗂️ Estructura de Redis
+## Estructura de Redis
 
 ### Claves
 - Registros individuales: `tabla:id` (ej: `clientes:1`)
@@ -212,7 +213,7 @@ SMEMBERS productos:index
 SCARD clientes:index
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 BDD-Aavanzada/
@@ -224,14 +225,14 @@ BDD-Aavanzada/
 └── orden_formatted.md     # Requisitos del proyecto
 ```
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Node.js**: Entorno de ejecución
 - **Express**: Framework web
 - **Redis**: Base de datos NoSQL clave-valor
 - **response-time**: Middleware para medir tiempos de respuesta
 
-## ✅ Checklist de Evaluación (20 pts)
+## Criterios de Evaluación (20 pts)
 
 - [x] Middleware JSON + response-time funcionando (3 pts)
 - [x] Redis conexión + manejo de errores (3 pts)
@@ -240,7 +241,7 @@ BDD-Aavanzada/
 - [x] Modelo de datos completo con 10 registros por tabla (3 pts)
 - [x] README + evidencias (5 pts)
 
-## 📸 Evidencias
+## Evidencias
 
 Para cumplir con los requisitos del examen, capturar pantallas de:
 
@@ -251,7 +252,7 @@ Para cumplir con los requisitos del examen, capturar pantallas de:
 5. Consola mostrando los tiempos de response-time
 6. Redis CLI mostrando las claves almacenadas
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### Redis no conecta
 - Verificar que Redis esté corriendo: `redis-cli ping` (debe responder `PONG`)
@@ -268,10 +269,10 @@ Para cumplir con los requisitos del examen, capturar pantallas de:
   PORT=4000 npm start
   ```
 
-## 👨‍💻 Autor
+## Autor
 
 Desarrollado para el Examen de BDD Redis - TecnoMega
 
-## 📄 Licencia
+## Licencia
 
 Proyecto educativo - Libre uso para fines académicos
